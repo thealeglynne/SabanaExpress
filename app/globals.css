@@ -1,33 +1,45 @@
+/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: 'MyFont';
+  src: url('../public//fonts/akira_expanded/Akira\ Expanded\ Demo.otf') format('woff2'),
+       url('../public//fonts//akira_expanded/Akira\ Expanded\ Demo.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyFont2';
+  src: url('../public/fonts/garet/Garet-Book.otf') format('woff2'),
+       url('../public/fonts/garet/Garet-Book.otf') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+body{
+  font-family: 'MyFont', sans-serif;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(251, 251, 251);
+    overflow: hidden;
+    background-position: center top -15vh;;
+
+   background-size: 90%; /* Ajusta este valor para cambiar el tamaño de la imagen */
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  .header{
+    left: -0px;
+    width: 100%;
+    height: 10vh;
+    
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+   
+    z-index: 10;
 }

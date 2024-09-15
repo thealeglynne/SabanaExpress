@@ -1,0 +1,121 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: black;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.title2 {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'MyFont';
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nav-item {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 1px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+/* Botón "Registrarse" */
+.register-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #5e5e5e;
+  transition: 1s;
+  color: aliceblue;
+}
+.register-button{
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+/* Estilos para pantallas pequeñas */
+@media (max-width: 850px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+  }
+
+  .nav.open {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav-item {
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}

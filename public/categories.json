@@ -1,0 +1,323 @@
+[
+  {
+    "name": "Electrónica",
+    "products": [
+      {
+        "id": 1,
+        "name": "Teléfono",
+        "price": "$899",
+        "description": "Smartphone de última generación.",
+        "image": "https://i.pinimg.com/564x/2c/59/bc/2c59bc76f13f78125504d269943e7ca6.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/2c/59/bc/2c59bc76f13f78125504d269943e7ca6.jpg",
+          "https://i.pinimg.com/564x/0e/0d/3d/0e0d3d2c482bcad1b2e0e1a32a3d1a0b.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Laptop",
+        "price": "$1200",
+        "description": "Laptop ultraligera con gran rendimiento.",
+        "image": "https://i.pinimg.com/564x/78/bf/a8/78bfa893270a0b531705b1c56f25674d.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/78/bf/a8/78bfa893270a0b531705b1c56f25674d.jpg",
+          "https://i.pinimg.com/564x/12/34/56/1234567890abcdef.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Audífonos",
+        "price": "$199",
+        "description": "Audífonos Bluetooth con cancelación de ruido.",
+        "image": "https://i.pinimg.com/564x/f0/79/a2/f079a2487f85c3fcc3252fdeb2cbda12.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/f0/79/a2/f079a2487f85c3fcc3252fdeb2cbda12.jpg",
+          "https://i.pinimg.com/564x/21/32/43/21324321abcd5678.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Cámara Fotográfica",
+        "price": "$650",
+        "description": "Cámara digital de alta resolución.",
+        "image": "https://i.pinimg.com/564x/69/63/b6/6963b6f73ab6d2a7e8dad075bc72a194.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/69/63/b6/6963b6f73ab6d2a7e8dad075bc72a194.jpg",
+          "https://i.pinimg.com/564x/87/65/54/8765543210efabc.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Smartwatch",
+        "price": "$250",
+        "description": "Reloj inteligente con múltiples funciones.",
+        "image": "https://i.pinimg.com/564x/20/29/d5/2029d51d3f51b028d6f0d4b7bab3c44d.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/20/29/d5/2029d51d3f51b028d6f0d4b7bab3c44d.jpg",
+          "https://i.pinimg.com/564x/21/32/43/21343210abcd1234.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Tablet",
+        "price": "$499",
+        "description": "Tablet con pantalla de 10 pulgadas.",
+        "image": "https://i.pinimg.com/564x/e3/5c/8f/e35c8fb93ef77ea723374a32569e4e03.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/e3/5c/8f/e35c8fb93ef77ea723374a32569e4e03.jpg",
+          "https://i.pinimg.com/564x/ab/12/34/ab1234567890abcdef.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Consola de Videojuegos",
+        "price": "$599",
+        "description": "Consola de última generación.",
+        "image": "https://i.pinimg.com/564x/0d/4f/4a/0d4f4ada5cc29723079eb2b50e5e4f4a.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/0d/4f/4a/0d4f4ada5cc29723079eb2b50e5e4f4a.jpg",
+          "https://i.pinimg.com/564x/56/78/90/567890abcdef1234.jpg"
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Teclado Mecánico",
+        "price": "$120",
+        "description": "Teclado mecánico con retroiluminación RGB.",
+        "image": "https://i.pinimg.com/564x/a5/d9/85/a5d985135744d680ac047587742f830f.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/a5/d9/85/a5d985135744d680ac047587742f830f.jpg",
+          "https://i.pinimg.com/564x/87/65/54/87654321abcd0987.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Mouse Inalámbrico",
+        "price": "$45",
+        "description": "Mouse inalámbrico con diseño ergonómico.",
+        "image": "https://i.pinimg.com/736x/32/01/80/3201802df11bf10bdf9ec9eba4266c1d.jpg",
+        "gallery": [
+          "https://i.pinimg.com/736x/32/01/80/3201802df11bf10bdf9ec9eba4266c1d.jpg",
+          "https://i.pinimg.com/564x/98/76/54/9876543210abcdef.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Monitor 4K",
+        "price": "$350",
+        "description": "Monitor UHD 4K de 27 pulgadas.",
+        "image": "https://i.pinimg.com/564x/0f/5b/ab/0f5bab6c5d919cd2fc7a7a492b3c6532.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/0f/5b/ab/0f5bab6c5d919cd2fc7a7a492b3c6532.jpg",
+          "https://i.pinimg.com/564x/21/43/65/214365abcd0987.jpg"
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Disco Duro Externo",
+        "price": "$100",
+        "description": "Disco duro externo de 1TB.",
+        "image": "https://i.pinimg.com/564x/21/69/f5/2169f568d0110dc422306e49b2efc7a6.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/21/69/f5/2169f568d0110dc422306e49b2efc7a6.jpg",
+          "https://i.pinimg.com/564x/32/54/76/325476abcd1234.jpg"
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Auriculares Gaming",
+        "price": "$150",
+        "description": "Auriculares con micrófono para gaming.",
+        "image": "https://i.pinimg.com/564x/03/8e/5e/038e5ef16bab1be531023f60460245c2.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/03/8e/5e/038e5ef16bab1be531023f60460245c2.jpg",
+          "https://i.pinimg.com/564x/03/8e/5e/038e5ef16bab1be531023f60460245c2.jpg"
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Batería Portátil",
+        "price": "$60",
+        "description": "Cargador portátil de 10,000mAh.",
+        "image": "https://i.pinimg.com/564x/e1/4d/88/e14d882992bf914362ace17533faa37d.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/e1/4d/88/e14d882992bf914362ace17533faa37d.jpg",
+          "https://i.pinimg.com/564x/12/34/56/1234567890abcdef.jpg"
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Router WiFi",
+        "price": "$75",
+        "description": "Router inalámbrico de alta velocidad.",
+        "image": "https://i.pinimg.com/564x/c0/3b/4a/c03b4a3a1cdefb23456a4f2a34567890.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/c0/3b/4a/c03b4a3a1cdefb23456a4f2a34567890.jpg",
+          "https://i.pinimg.com/564x/21/43/65/214365abcdef0987.jpg"
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Parlante Bluetooth",
+        "price": "$80",
+        "description": "Parlante portátil con conectividad Bluetooth.",
+        "image": "https://i.pinimg.com/564x/63/6e/9f/636e9f616e4255d12ea12c679bf25492.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/63/6e/9f/636e9f616e4255d12ea12c679bf25492.jpg",
+          "https://i.pinimg.com/564x/76/54/32/76543210abcd5678.jpg"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Hub USB",
+        "price": "$25",
+        "description": "Hub USB de 4 puertos.",
+        "image": "https://i.pinimg.com/564x/45/67/89/456789012345abcdef.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/45/67/89/456789012345abcdef.jpg",
+          "https://i.pinimg.com/564x/12/34/56/1234567890abcdef.jpg"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Teclado Inalámbrico",
+        "price": "$90",
+        "description": "Teclado inalámbrico con diseño elegante.",
+        "image": "https://i.pinimg.com/564x/6a/24/9f/6a249f91a92b0eae65f68a63a639f62b.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/6a/24/9f/6a249f91a92b0eae65f68a63a639f62b.jpg",
+          "https://i.pinimg.com/564x/98/76/54/9876543210abcdef.jpg"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Silla Gaming",
+        "price": "$300",
+        "description": "Silla ergonómica para gaming.",
+        "image": "https://i.pinimg.com/564x/7b/9d/0f/7b9d0f7e1c3d2a8a9c10f56a8e7bc8a1.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/7b/9d/0f/7b9d0f7e1c3d2a8a9c10f56a8e7bc8a1.jpg",
+          "https://i.pinimg.com/564x/12/34/56/1234567890abcdef.jpg"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Proyector",
+        "price": "$450",
+        "description": "Proyector de alta definición.",
+        "image": "https://i.pinimg.com/564x/9b/8e/6b/9b8e6b1c42a6e9c6e8d65e5f75f3c80b.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/9b/8e/6b/9b8e6b1c42a6e9c6e8d65e5f75f3c80b.jpg",
+          "https://i.pinimg.com/564x/76/54/32/76543210abcd1234.jpg"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Estación de Carga",
+        "price": "$55",
+        "description": "Estación de carga rápida para varios dispositivos.",
+        "image": "https://i.pinimg.com/564x/45/67/89/4567890123456789.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/45/67/89/4567890123456789.jpg",
+          "https://i.pinimg.com/564x/98/76/54/9876543210abcdef.jpg"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Cargador Rápido",
+        "price": "$30",
+        "description": "Cargador rápido para dispositivos móviles.",
+        "image": "https://i.pinimg.com/564x/a1/b2/c3/a1b2c3d4e5f67890.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/a1/b2/c3/a1b2c3d4e5f67890.jpg",
+          "https://i.pinimg.com/564x/21/32/43/21324321abcd0987.jpg"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Monitor Curvo",
+        "price": "$400",
+        "description": "Monitor curvo de 32 pulgadas.",
+        "image": "https://i.pinimg.com/564x/c0/3b/4a/c03b4a1e2dfe3456.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/c0/3b/4a/c03b4a1e2dfe3456.jpg",
+          "https://i.pinimg.com/564x/76/54/32/76543210abcd5678.jpg"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Cámara Web",
+        "price": "$80",
+        "description": "Cámara web HD para videollamadas.",
+        "image": "https://i.pinimg.com/564x/01/23/45/0123456789abcdef.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/01/23/45/0123456789abcdef.jpg",
+          "https://i.pinimg.com/564x/56/78/90/567890abcdef1234.jpg"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Silla de Oficina",
+        "price": "$220",
+        "description": "Silla de oficina ajustable y ergonómica.",
+        "image": "https://i.pinimg.com/564x/ab/cd/ef/abcdef1234567890.jpg",
+        "gallery": [
+          "https://i.pinimg.com/564x/ab/cd/ef/abcdef1234567890.jpg",
+          "https://i.pinimg.com/564x/21/32/43/21343210abcd5678.jpg"
+        ]
+      }
+    ]
+  }
+  
+      ,
+      {
+        "name": "Ropa",
+        "products": [
+          { "id": 25, "name": "Camiseta", "price": "$20", "description": "Camiseta de algodón 100%.", "image": "https://i.pinimg.com/736x/31/f9/43/31f943049f4dd4e21c80f2e4cf52307c.jpg" },
+          { "id": 26, "name": "Jeans", "price": "$50", "description": "Jeans de corte clásico.", "image": "https://i.pinimg.com/564x/4d/3e/fa/4d3efab80a22dcb45cf7cdb8eed8fc57.jpg" },
+          { "id": 27, "name": "Sudadera", "price": "$40", "description": "Sudadera con capucha de alta calidad.", "image": "https://i.pinimg.com/564x/e1/3f/17/e13f1765e6560f9749d312100026834e.jpg" },
+          { "id": 28, "name": "Chaqueta de Cuero", "price": "$120", "description": "Chaqueta de cuero genuino.", "image": "https://i.pinimg.com/564x/58/b0/6e/58b06ef8b347731ad82e67dc28c12d73.jpg" },
+          { "id": 29, "name": "Vestido", "price": "$80", "description": "Vestido elegante para eventos especiales.", "image": "https://i.pinimg.com/564x/1d/e2/16/1de216434528574a6261df50debabec4.jpg" },
+          { "id": 30, "name": "Zapatillas Deportivas", "price": "$60", "description": "Zapatillas deportivas de running.", "image": "https://i.pinimg.com/564x/a1/2c/31/a12c3123a9fb5039576cdab32f4cacd4.jpg" },
+          { "id": 31, "name": "Traje Formal", "price": "$250", "description": "Traje formal de corte slim fit.", "image": "https://i.pinimg.com/564x/a0/ac/1c/a0ac1cfba77dba204504ebd4dd2f5621.jpg" },
+          { "id": 32, "name": "Cinturón de Cuero", "price": "$30", "description": "Cinturón de cuero ajustable.", "image": "https://i.pinimg.com/564x/51/6a/36/516a36b753f3d2c77286c625a76424a1.jpg" },
+          { "id": 33, "name": "Gorra", "price": "$25", "description": "Gorra deportiva ajustable.", "image": "https://i.pinimg.com/564x/fe/d4/cc/fed4ccaa51ab5bdc3a5de814ca65fef6.jpg" },
+          { "id": 34, "name": "Abrigo de Invierno", "price": "$150", "description": "Abrigo de invierno con forro térmico.", "image": "https://i.pinimg.com/564x/29/df/19/29df199e47318ef35327630086e1d81d.jpg" },
+          { "id": 35, "name": "Bufanda de Lana", "price": "$35", "description": "Bufanda de lana suave y cálida.", "image": "https://i.pinimg.com/564x/9d/24/e6/9d24e67df7f6656fc8e3c6c7797036f8.jpg" },
+          { "id": 36, "name": "Pantalones Cortos", "price": "$30", "description": "Pantalones cortos de algodón.", "image": "https://i.pinimg.com/564x/62/8d/60/628d602a2b617aa7dbcf4c638a4367a7.jpg" },
+          { "id": 37, "name": "Chaqueta Vaquera", "price": "$70", "description": "Chaqueta de mezclilla resistente.", "image": "https://i.pinimg.com/564x/c8/8b/7b/c88b7b9ecd787504b63d73eec63124f6.jpg" },
+          { "id": 38, "name": "Camisa Formal", "price": "$45", "description": "Camisa formal de manga larga.", "image": "https://i.pinimg.com/564x/74/fc/43/74fc432bdf633421863df323135e9091.jpg" },
+          { "id": 39, "name": "Guantes de Invierno", "price": "$20", "description": "Guantes de lana para invierno.", "image": "https://i.pinimg.com/736x/fc/7f/de/fc7fdeedd828bed7d4835028720901b5.jpg" },
+          { "id": 40, "name": "Chaleco", "price": "$60", "description": "Chaleco acolchado para climas fríos.", "image": "https://i.pinimg.com/564x/bb/fc/a2/bbfca2e9ac6960e038a54145275a7dca.jpg" },
+          { "id": 41, "name": "Polo", "price": "$25", "description": "Polo de algodón con cuello.", "image": "https://i.pinimg.com/564x/f8/73/67/f87367a338339ede52698dd0c5bcf682.jpg" },
+          { "id": 42, "name": "Chaqueta Deportiva", "price": "$90", "description": "Chaqueta deportiva para entrenamiento.", "image": "https://i.pinimg.com/564x/29/7b/6c/297b6c00fdea0d149b7e75d930d57a5f.jpg" }
+        ]
+      }      
+      ,
+      {
+        "name": "Hogar",
+        "products": [
+          { "id": 43, "name": "Sofá", "price": "$800", "description": "Sofá de 3 plazas con tela resistente.", "image": "/images/sofa.jpg" },
+          { "id": 44, "name": "Mesa de Comedor", "price": "$300", "description": "Mesa de comedor de madera con 6 sillas.", "image": "/images/mesa_comedor.jpg" },
+          { "id": 45, "name": "Cama", "price": "$600", "description": "Cama matrimonial con colchón incluido.", "image": "/images/cama.jpg" },
+          { "id": 46, "name": "Lámpara de Techo", "price": "$75", "description": "Lámpara de techo con diseño moderno.", "image": "/images/lampara_techo.jpg" },
+          { "id": 47, "name": "Espejo", "price": "$50", "description": "Espejo grande con marco elegante.", "image": "/images/espejo.jpg" },
+          { "id": 48, "name": "Alfombra", "price": "$120", "description": "Alfombra de lana para sala.", "image": "/images/alfombra.jpg" },
+          { "id": 49, "name": "Mesa de Noche", "price": "$40", "description": "Mesa de noche con cajón.", "image": "/images/mesa_noche.jpg" },
+          { "id": 50, "name": "Silla de Oficina", "price": "$150", "description": "Silla ergonómica para oficina.", "image": "/images/silla_oficina.jpg" },
+          { "id": 51, "name": "Cortinas", "price": "$90", "description": "Cortinas de tela pesada para ventanas grandes.", "image": "/images/cortinas.jpg" },
+          { "id": 52, "name": "Estantería", "price": "$220", "description": "Estantería de madera para libros.", "image": "/images/estanteria.jpg" },
+          { "id": 53, "name": "Candelabro", "price": "$35", "description": "Candelabro de metal con velas.", "image": "/images/candelabro.jpg" },
+          { "id": 54, "name": "Reloj de Pared", "price": "$60", "description": "Reloj de pared con diseño clásico.", "image": "/images/reloj_pared.jpg" },
+          { "id": 55, "name": "Sillón Recliner", "price": "$500", "description": "Sillón recliner de cuero.", "image": "/images/sillon_recliner.jpg" },
+          { "id": 56, "name": "Ropa de Cama", "price": "$150", "description": "Juego de sábanas y fundas de almohada.", "image": "/images/ropa_cama.jpg" },
+          { "id": 57, "name": "Lámpara de Escritorio", "price": "$40", "description": "Lámpara de escritorio con luz LED.", "image": "/images/lampara_escritorio.jpg" },
+          { "id": 58, "name": "Aspiradora", "price": "$180", "description": "Aspiradora potente para alfombras.", "image": "/images/aspiradora.jpg" },
+          { "id": 59, "name": "Cuadro Decorativo", "price": "$80", "description": "Cuadro decorativo para pared.", "image": "/images/cuadro_decorativo.jpg" },
+          { "id": 60, "name": "Maceta", "price": "$25", "description": "Maceta grande para plantas.", "image": "/images/maceta.jpg" }
+        ]
+      }
+      
+      
+        
+]

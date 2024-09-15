@@ -1,0 +1,210 @@
+
+.navbar {
+    background-color: black;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    padding-inline: 0.75rem;
+    place-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 74px; /* Ajustado para que solo ocupe la altura del navbar */
+    z-index: 10;
+    transition: 1.2s;
+  
+}
+
+.navActions {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    place-items: center;
+    transition: 1.2s;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font: 500 0.875rem/1.25rem system-ui, sans-serif;
+    transition: 1.2s;
+}
+
+.searchWrap {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    gap: 0.25rem;
+    transition: 1.2s;
+}
+.Titulo{
+    color: rgb(109, 109, 109);
+    font-size: 3rem;
+   position: relative;
+   top: -6vh;
+    transition: 1s;
+    font-family: 'MyFont',;
+    font-weight: 400;
+    transition: 1.2s;
+}
+.Text{
+    color: rgb(112, 112, 112);
+    font-size: 1.2rem;
+   position: relative;
+   top:5vh;
+    transition: 1s;
+
+    font-weight: 200;
+    transition: 1.2s;
+}
+.searchBtn {
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 2px;
+    cursor: pointer;
+    background-color: inherit;
+    border: none;
+    transition: 1.2s;
+}
+
+.searchInput {
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid currentColor;
+    color: white;
+    padding: 0.25rem;
+    min-width: 5ch;
+    width: 100%;
+    font: 500 0.875rem/1.25rem system-ui, sans-serif;
+    transition: 1.2s;
+}
+
+.searchInput::placeholder {
+    color: white;
+    transition: 1.2s;
+}
+
+.searchInput:focus {
+    outline: none;
+    transition: 1.2s;
+}
+
+.cart {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    gap: 2px;
+    transition: 1.2s;
+    
+}
+
+.cartIconWrapper {
+    padding: 2px;
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: 1.2s;
+}
+
+.navIconSvg {
+    display: block;
+    max-width: 100%;
+    transition: 1.2s;
+}
+
+.section {
+    background-color: transparent;
+    padding: 0.75rem;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    transition: 1.2s;
+}
+
+.cards {
+    transition: 1.2s;
+    display: grid;
+    gap: 1rem;
+    width: 100%;
+   
+     /* Las tarjetas ahora ocuparán todo el ancho del contenedor */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Se ajustarán según el tamaño de la pantalla */
+}
+
+.card {
+    text-decoration: none;
+    position: relative;
+    min-height: 280px;
+    transition: 1.2s;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card:hover::after {
+    opacity: 1;
+    transition: 1.2s;
+}
+
+.card::after {
+    content: '';
+    display: block;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    transition: 1.2s;
+}
+
+.card1::after {
+    background-color: hwb(187 11% 1% / 0.5)
+}
+
+.card2::after {
+    background-color: hsla(209, 82%, 42%, 0.5); /* 0.5 hace que el color sea medio transparente */
+}
+
+.card3::after {
+    background-color: hsla(209, 82%, 42%, 0.5); 
+}
+
+.card4::after {
+    background-color: hsla(209, 82%, 42%, 0.5); 
+}
+
+.visual {
+    transition: 1.2s;
+    overflow: hidden;
+    display: grid;
+    aspect-ratio: 4 / 5;
+    place-items: center;
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la tarjeta */
+    height: 100%; /* Asegura que la imagen ocupe toda la altura de la tarjeta */
+}
+
+.cardImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   
+    transition: 1.2s;
+}
+
+.figcaption {
+    color: white;
+    font: 500 0.875rem/1.25rem system-ui, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transition: 1.2s;
+}
+@media (max-width: 1000px) {
+    .Titulo,
+    .Text {
+        display: none; /* Oculta los elementos */
+    }
+}
